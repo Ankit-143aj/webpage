@@ -2,10 +2,27 @@
   margin: 0;
   padding: 0;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 div:nth-child(1){
   height:100px;
   width:100px;
+  margin: 10px;
   background-color:red;
   color:white;
   font-size:30px;
+  text-align: center;
+}
+div:nth-child(2){
+  height:100px;
+  width:100px;
+  margin: 10px;
+  background-color:red;
+  color:white;
+  font-size:30px;
+  text-align: center;
 }
