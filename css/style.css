@@ -26,4 +26,6 @@ div:nth-child(2){
   font-size:30px;
   text-align: center;
   background-image:url("../final-result.jpg")
+  background-size:cover;
+  background-repeat:no-repeat;
 }
