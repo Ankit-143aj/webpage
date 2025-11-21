@@ -18,8 +18,8 @@ div:nth-child(1){
   text-align: center;
 }
 div:nth-child(2){
-  height:100px;
-  width:100px;
+  height:100%;
+  width:100%;
   margin: 10px;
   background-color:red;
   color:white;
