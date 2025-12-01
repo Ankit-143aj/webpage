@@ -7,4 +7,36 @@
   width:100%;
   height:10%; 
   background-color:aqua;
+  display:flex;
+}
+.logo{
+  width:25%;
+  background-color:green;
+}
+.logo img{
+  width:auto;
+  heigth:auto;
+}
+
+.menu{
+  width:75%;
+  background-color:aqua;
+}
+.menu .menubar{
+  wight:100%;
+  height:100%
+}
+.menu .menubar ul{
+  height:100%;
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+}
+.menu .menubar ul li{
+  list-style:none;
+  padding-bottom:2.5%;
+}
+.menu .menubar ul li a{
+  text-decoration:none;
+  position:absolute;
 }
