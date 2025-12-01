@@ -47,3 +47,8 @@
         font-size:1vw;
         position:absolute;
 }
+@media (max-width:576px){
+        .menu{
+                background-color:red;
+        }
+}
