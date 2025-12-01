@@ -47,8 +47,8 @@
         font-size:1.2vw;
         position:absolute;
 }
-@media (max-width:576px){
+/* @media (max-width:576px){
         .menu{
                 background-color:red;
         }
-}
+} */
