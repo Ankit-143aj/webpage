@@ -24,7 +24,7 @@
 .menu{
         width:75%;
         display:flex;
-        background-color:aqua;
+        background:linear-gradient(to left top,aqua,white);
 }
 .menu .menubar{
         height:100%;
