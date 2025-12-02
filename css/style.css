@@ -9,7 +9,7 @@
 }
 .logo{
         width:25%;
-        background:linear-gradient(to left,orange,yellow);
+        background:linear-gradient(to left top,orange,yellow);
 }
 .logo a{
         width:100%;
