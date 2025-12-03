@@ -82,6 +82,8 @@
         }
         .menu .menuicon .icon i{
                 display:block;
+                font-size:5vw;
+                align-items:center;
         }
 }
 
