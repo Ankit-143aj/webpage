@@ -47,6 +47,24 @@
         font-size:1.2vw;
         position:absolute;
 }
+
+.menu .menuicon{
+        width:20%;
+        height:100%;
+        background-color:black;
+        display:flex;
+        justify-content:center;
+}
+.menu .menuicon .icon{
+        width:100%;
+        height:100%;
+        padding:2%;
+}
+.menu .menuicon .icon i{
+        font-size:2vw;
+        display:none;
+}
+
 /* @media (max-width:576px){
         .menu{
                 background-color:red;
