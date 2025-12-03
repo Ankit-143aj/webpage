@@ -74,35 +74,6 @@
         }   
 }
 @media (max-width:400px){
-.menu{
-        width:75%;
-        height:100%;
-         background-color:red;
-}
-.menu .menubar{
-        height:100%;
-        width:80%;
-}
- .menu .menubar ul{
-        height:100%;
-        width:100%;
-        display:flex;
-         flex-direction:column;
-        align-items:center;
-         /* gap:5vh; */
-         margin-top:20%;
-        
-}
-.menu ul li{
-        list-style-type:none; 
-        padding-bottom:2.5%;
-        line-height:10vh;
-}
-.menu ul li a{
-        text-decoration:none;
-        color:black;
-        font-size:7vw;
-}
 
 .menu .menuicon .icon{
         display:flex;
