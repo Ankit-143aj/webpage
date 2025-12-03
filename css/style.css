@@ -80,6 +80,7 @@
         .menu .menuicon .icon{
                 display:flex;
                 justify-content:center;
+                align-items:center;
 }
         .menu .menuicon .icon i{
                 display:block;
