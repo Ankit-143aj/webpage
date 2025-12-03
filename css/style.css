@@ -91,9 +91,7 @@
         color:black;
         font-size:1.2vw;
 }
- .menu ul li a{
-        display:none;
-        }
+
 .menu .menuicon .icon{
         display:flex;
         justify-content:center;
