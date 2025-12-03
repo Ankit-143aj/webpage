@@ -74,6 +74,13 @@
         }   
 }
 @media (max-width:400px){
+.menu{
+        width:75%;
+}
+.menu .menubar{
+        height:100%;
+        width:80%;
+}
  .menu .menubar ul{
         height:100%;
         width:100%;
