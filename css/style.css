@@ -63,11 +63,9 @@
 }
 .menu .menuicon .icon i{
         font-size:2vw;
-        /* display:none; */
+        display:none;
 }
 
-/* @media (max-width:576px){
-        .menu{
-                background-color:red;
-        }
-} */
+@media (max-width:576px){
+        
+}
