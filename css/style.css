@@ -80,11 +80,11 @@
         .menu .menuicon .icon{
                 display:flex;
                 justify-content:center;
-                padding:2%;
 }
         .menu .menuicon .icon i{
                 display:block;
                 font-size:5vw;
+                padding-top:3%;
                 align-items:center;
         }
 }
