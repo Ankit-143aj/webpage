@@ -70,7 +70,7 @@
                 display:flex;
 }
         .menu ul li a{
-                font-size:1.8vw;
+                font-size:2vw;
         }   
 }
 @media (max-width:400px){
