@@ -85,12 +85,12 @@
 .menu ul li{
         list-style-type:none; 
         padding-bottom:2.5%;
+        line-height:5vw;
 }
 .menu ul li a{
         text-decoration:none;
         color:black;
         font-size:10vw;
-        line-height:5vw;
 }
 
 .menu .menuicon .icon{
