@@ -65,7 +65,10 @@
 /* ------------submenu---------- */
 
 .menu .menubar ul li .submenu{
-        height:200px;
+        display:none;
+}
+.menu .menubar ul li .submenu:hover{
+         height:200px;
         width:100px;
         background-color:red;
         position:absolute;
@@ -73,10 +76,6 @@
         display:flex;
         flex-direction:column;
         justify-content:center;
-        
-}
-.menu .menubar ul li .submenu{
-        
 }
 
 @media (max-width:576px){
