@@ -76,9 +76,8 @@
        
 }
 .menu .menubar ul li .submenu li{
-        height:auto;
-        width:auto;
-        padding:0;
+        
+        padding:5px;
         text-align:left;
 }
 /* .menu .menubar ul li .submenu li a{
