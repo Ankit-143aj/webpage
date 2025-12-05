@@ -77,11 +77,18 @@
             z-index:99;
        
 }
-.menu .menubar ul li .submenu li{
-        position:relative;
-        padding:5px;
-        text-align:left;
-}
+.submenu li{
+            padding:8px;
+            list-style:none;
+        }
+
+ .submenu li a{
+            font-size:16px;
+        }
+
+.menubar ul li:hover .submenu{
+            display:block;
+        }
 
 
 
