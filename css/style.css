@@ -78,6 +78,9 @@
 .menu .menubar ul li .submenu li{
         display:block;
 }
+.menu .menubar ul li .submenu li a{
+        display:block;
+}
 
 @media (max-width:576px){
         .navbar{
