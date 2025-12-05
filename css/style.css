@@ -75,14 +75,16 @@
         /* padding-left:5px; */
        
 }
-/* .menu .menubar ul li .submenu li{
-        padding:0;
-        text-align:left;
-} */
-.menu .menubar ul li .submenu li a{
+.menu .menubar ul li .submenu li{
+        height:auto;
+        width:auto;
         padding:0;
         text-align:left;
 }
+/* .menu .menubar ul li .submenu li a{
+        padding:0;
+        text-align:left;
+} */
 
 
 @media (max-width:576px){
