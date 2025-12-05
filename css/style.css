@@ -40,6 +40,7 @@
 .menu ul li{
         list-style-type:none; 
         padding-bottom:2.5%;
+        position:relative;
 }
 .menu ul li a{
         text-decoration:none;
@@ -65,18 +66,15 @@
 /* ------------submenu---------- */
 
 .menu .menubar ul li .submenu{
-        /* display:none; */
-        height:200px;
-        width:100px;
-        background-color:red;
-        position:absolute;
-        top:7%;
-        flex-direction:column;
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        left:50%;
-        z-index:1;
+            display:none;
+            position:absolute;
+            top:100%;
+            left:0;
+            width:150px;
+            background:red;
+            flex-direction:column;
+            padding:5px 0;
+            z-index:99;
        
 }
 .menu .menubar ul li .submenu li{
