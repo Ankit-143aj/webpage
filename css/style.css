@@ -75,6 +75,9 @@
         /* padding-left:5px; */
        
 }
+.menu .menubar ul li .submenu li{
+        display:block;
+}
 
 @media (max-width:576px){
         .navbar{
