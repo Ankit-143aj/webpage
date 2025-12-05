@@ -70,9 +70,9 @@
         width:100px;
         background-color:red;
         position:absolute;
-        top:8%;
-        flex-direction:column;
-        padding-left:5px;
+        top:6%;
+        /* flex-direction:column; */
+        /* padding-left:5px; */
        
 }
 
