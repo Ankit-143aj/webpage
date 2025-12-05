@@ -65,8 +65,8 @@
 /* ------------submenu---------- */
 
 .menu .menubar ul li .submenu{
-        height:300px;
-        width:200px;
+        height:200px;
+        width:100px;
         background-color:red;
         position:absolute;
         top:8%;
