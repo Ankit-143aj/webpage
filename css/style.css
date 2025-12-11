@@ -13,6 +13,7 @@
     width:20vw;
     /* height:100%; */
     background:linear-gradient(to right bottom,aqua,white);
+    
 }
 .logo a{
     width: 100%;
@@ -38,7 +39,6 @@
     height: 100%;
     background:linear-gradient(to left bottom,aqua,white);
 }
-
 .menu .menubar ul {
     height: 100%;
     width: 100%;
@@ -47,31 +47,35 @@
     justify-content: space-evenly;
 }
 .menu .menubar ul li{
-    position: relative;
+    list-style-type: none;
+    padding-bottom: 2.5%;
+    /* position: relative; */
 }
 .menu .menubar ul li a{
     text-decoration: none;
     color: rgb(255, 0, 0);
     height: 10%;
     font-size: 2vw;
+    position: absolute;
 }
 
 .menubar ul .submenu{
     display: none;
     position: absolute;
-    left: 0; 
-    top:100%;
+    left: 46%;
+    top:10%;
     flex-direction: column;
     background:linear-gradient(to left top,rgb(121, 244, 244),white);
-    max-width:20vw;
+    max-width:10vw;
     height: auto;
     padding:30px 0;
+    /* z-index:999; */
+    
 }
-
 .menu ul .submenu li{
    padding:15px 10px;
-}
 
+}
 .menu .menubar ul li:hover .submenu{
     display: block;
     white-space: nowrap;
