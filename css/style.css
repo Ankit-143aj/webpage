@@ -47,8 +47,8 @@
     justify-content: space-evenly;
 }
 
-.menu .menubar ul .underline_current > a{
-    text-decoration:underline;
+.menu .menubar ul .underline_current a{
+    text-decoration:underline red;
 }
 .menu .menubar ul li{
     list-style-type: none;
