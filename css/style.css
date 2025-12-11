@@ -46,6 +46,10 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
+.menu .menubar ul .underline_current>a{
+    text-decoration:enderline
+}
 .menu .menubar ul li{
     list-style-type: none;
     padding-bottom: 2.5%;
