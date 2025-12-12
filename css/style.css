@@ -57,6 +57,7 @@ background:linear-gradient(white,aqua);
   text-decoration: none;
   color: red;
   font-size: 1.5vw;
+  height:6%;
   position: absolute;
 }
 .menu .menubar ul .underline_current > a{
