@@ -77,7 +77,11 @@
 }
 .menu ul .submenu li{
    padding:15px 10px;
+}
 
+.menu .menubar ul li .submenu li a {
+    position:relative;
+    display:none;
 }
 .menu .menubar ul li:hover .submenu{
     display: block;
