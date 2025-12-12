@@ -1,31 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>NAVBAR</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div id="header"></div>
-   <script>
-        fetch("navbar.html")
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById("header").innerHTML = data;
-
-       let currentPage = window.location.pathname.split("/").pop();
-       let links = document.querySelectorAll(".menu .menubar ul li a");
-      
-       links.forEach(link => {
-           let linkPage = link.getAttribute("href");
-           console.log("Attribute Value:", linkPage);
-           if(!linkPage == currentPage){
-               link.closest("li").classList.add("underline_current");
-           }
-       });
-    });
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div id="nav"></div>
+    <script>
+      fetch("navbar.html")
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById("nav").innerHTML = data;
+      });
     </script>
-</body>
+  </body>
 </html>
