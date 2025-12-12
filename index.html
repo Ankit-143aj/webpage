@@ -22,7 +22,7 @@
         //har anchor tag ko process karege
         links.forEach(link => {
           console.log("currentPage=" , currentPage);
-          let linkPage = getAttribute("href");
+          let linkPage =  link.getAttribute("href");
           
           if(linkPage == currentPage){
             link.closest("li").classList.add("underline_current");
