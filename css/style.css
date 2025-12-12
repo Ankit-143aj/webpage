@@ -68,7 +68,7 @@ background:linear-gradient(white,aqua);
 .menu .menubar ul li .submenu {
   display: none;
   position: absolute;
-  background-color: green;
+  background:linear-gradient(white,aqua);
   border: 1px solid black;
   z-index: 1;
   height:auto;
