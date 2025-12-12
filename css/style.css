@@ -73,7 +73,7 @@ background:linear-gradient(white,aqua);
   display: none;
   position: absolute;
   background:linear-gradient(white,aqua);
-  border: 1px solid black;
+  box-shadow:5px grey;
   z-index: 1;
   height:auto;
   width:auto;
