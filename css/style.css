@@ -7,14 +7,13 @@ font-family:monospace;
 .header {
   width: 100%;
   height: 10%;
-background:linear-gradient(white,aqua);
   display:flex;
 }
 
 .logo {
   width: 25%;
   height: 100%;
-  background-color: blue;
+background:linear-gradient(white,aqua);
 }
 
 .logo a {
