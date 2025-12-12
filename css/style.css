@@ -54,7 +54,7 @@ background:linear-gradient(white,aqua);
 
 .menubar ul li a {
   text-decoration: none;
-  color: yellow;
+  color: red;
   font-size: 1.5vw;
   position: absolute;
 }
