@@ -138,8 +138,8 @@ background:linear-gradient(white,aqua);
   .header .menu .menubar{
     width:50%;
     height:100%;
-    /* background:blue;
-    position:absolute;*/
+     /* background:blue; */
+    position:absolute;
     flex-direction:column; 
   }
   .header .menu .mobilebar{
