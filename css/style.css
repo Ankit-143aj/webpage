@@ -126,13 +126,13 @@ background:linear-gradient(white,aqua);
   }
   .header .logo a{
     width:50%;
-    background:linear-gradient(orange,yellow);
+    background:linear-gradient(yellow,orange);
     justify-content:none;
     padding-left:20%;
   }
   .header .menu{
     width:50%;
-    background:linear-gradient(orange,yellow);
+    background:linear-gradient(yellow,orange);
     
   }
   .header .menu .menubar{
