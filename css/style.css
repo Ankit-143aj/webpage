@@ -163,6 +163,7 @@ background:linear-gradient(white,aqua);
     baackground:white;
     border-radius:2px;
     box-shadow:0 7px 0 white,0 -7px 0 white; 
+    z-index:100;
   }
   
   
