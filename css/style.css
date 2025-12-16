@@ -50,15 +50,17 @@ background:linear-gradient(white,aqua);
 
 .menubar ul li {
   list-style: none;
-  padding-bottom: 3%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .menubar ul li a {
   text-decoration: none;
   color: red;
   font-size: 1.5vw;
-  height:6%;
-  position: absolute;
+  height:100%;
+  position: static !important;
 }
 .menu .menubar ul .underline_current > a{
   text-decoration:underline red;
@@ -73,12 +75,13 @@ background:linear-gradient(white,aqua);
   display: none;
   position: absolute;
   top:100%;
+  left:50%;
+  transform:translateX(-50%);
   background:linear-gradient(to bottom,white,aqua);
   box-shadow:5px grey;
   z-index: 1;
   height:auto;
   width:auto;
-  top:10%;
 }
 
 .menu .menubar ul li .submenu li {
