@@ -49,6 +49,7 @@ background:linear-gradient(white,aqua);
 }
 
 .menubar ul li {
+  position:relative;
   list-style: none;
   display:flex;
   justify-content:center;
@@ -59,6 +60,9 @@ background:linear-gradient(white,aqua);
   text-decoration: none;
   color: red;
   font-size: 1.5vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   height:100%;
   position: static !important;
 }
@@ -78,25 +82,33 @@ background:linear-gradient(white,aqua);
   left:50%;
   transform:translateX(-50%);
   background:linear-gradient(to bottom,white,aqua);
-  box-shadow:5px grey;
-  z-index: 1;
+  border:1px solid black;
+  width:200px;
   height:auto;
-  width:auto;
+  flex-direction:column;
+  padding:5px 0;
+  z-index: 10;
 }
 
 .menu .menubar ul li .submenu li {
   list-style: none;
-  padding: 5px 10px;
-  height:100%;
+  padding: 8px 5%;
+  width:90%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
  
 }
 
 .menu .menubar ul li .submenu li a{
-  color: black;
   font-size: 1vw;
-  text-decoration: none;
-  position: relative; 
-  display:block;
+  color: black;
+  text-align:center;
+  display:inline-block;
+  max-width:100%;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis; 
 }
 
 .menubar ul li:hover .submenu {
