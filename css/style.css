@@ -143,6 +143,8 @@ background:linear-gradient(white,aqua);
     flex-direction:column; 
   }
   .header .menu .menubar ul{
+    height:100%;
+    width:50%;
     display:block;
     top:50%;
     gap:5%;
