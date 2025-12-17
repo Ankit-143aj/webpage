@@ -9,6 +9,7 @@ font-family:monospace;
   height: 10%;
   display:flex;
 background:linear-gradient(white,aqua);
+  z-index:100;
 }
 
 .logo {
