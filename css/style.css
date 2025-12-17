@@ -153,6 +153,7 @@ background:linear-gradient(white,aqua);
   }
   .header .menu .menubar ul li{
     width:100%;
+    height:20%;
   }
   .header .menu .menubar ul li a{
     width:100%;
