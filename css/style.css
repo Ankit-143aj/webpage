@@ -145,11 +145,10 @@ background:linear-gradient(white,aqua);
   .header .menu .menubar ul{
     height:100%;
     width:100%;
+    background-color:	rgb(255, 128, 0);
     display:block;
-    justify-content:center;
-    align-items:center;
-    line-height:5%;
-    font-size:20px;
+    line-height:15;
+    padding: 50px;
   }
 
   
