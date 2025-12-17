@@ -151,6 +151,11 @@ background:linear-gradient(white,aqua);
     line-height:15;
     padding: 50px;
   }
+  .header .menu .menubar ul li{
+    width:100%;
+  }
+
+  
   
   .header .menu .mobilebar{
     width:100%;
