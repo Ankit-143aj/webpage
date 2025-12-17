@@ -150,6 +150,13 @@ background:linear-gradient(white,aqua);
     line-height:15;
     padding: 50px;
   }
+  .header .menu .menubar ul li{
+    width:100%;
+  }
+  .header .menu .menubar ul li a{
+    width:100%;
+    font-size:20%;
+  }
 
   
   .header .menu .mobilebar{
