@@ -146,20 +146,11 @@ background:linear-gradient(white,aqua);
   .header .menu .menubar ul{
     height:100%;
     width:100%;
-    background-color:	rgb(255, 128, 0);
+    /* background-color:	rgb(255, 128, 0); */
     display:block;
     line-height:15;
     padding: 50px;
   }
-  .header .menu .menubar ul li{
-    width:100%;
-  }
-  .header .menu .menubar ul li a{
-    width:100%;
-    font-size:20%;
-    color:white;
-  }
-
   
   .header .menu .mobilebar{
     width:100%;
