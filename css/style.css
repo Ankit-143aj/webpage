@@ -144,6 +144,8 @@ background:linear-gradient(white,aqua);
   }
   .header .menu .menubar ul{
     display:block;
+    top:50%;
+    gap:5%;
     
   }
 
