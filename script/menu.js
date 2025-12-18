@@ -35,10 +35,10 @@
 
                       mobileBar.appendChild(di);
 
-                      di.addEventListener("click" (e) => {
+                      di.addEventListener("click", function(e){
                             e.stopPropagation();
                             menu.classList.toggle("mobile-open");
-                      })
+                      });
                 }
           }
         });
