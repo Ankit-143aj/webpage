@@ -30,7 +30,7 @@
                       const di = document.createElement("div");
                       di.className = "hamburger";
                       di.setAttribute("aria-label","Toggle menu")
-                      dv.setAttribute("tabindex","0");
+                      di.setAttribute("tabindex","0");
                       di.innerHTML = "<span></span>";
 
                       mobileBar.appendChild(di);
