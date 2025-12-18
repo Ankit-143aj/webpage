@@ -183,9 +183,13 @@ background:linear-gradient(white,aqua);
     cursor:pointer;
   }
   .header .menu.mobile-open .mobilebar .hamburger{
-    display:block;
+    display:flex;
+    background:gray;
+    possition:absolute;
     top:10%;
-    left:0;
+    left:auto;
+    z-index:10;
+    flex-direction:column;
     
   }
   .header .menu .mobilebar .hamburger span{
