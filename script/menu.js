@@ -21,7 +21,7 @@
             link.closest("li").classList.add("underline_current");
           }
 
-          if I(window.innerWidth <= 576){
+          if (window.innerWidth <= 576){
                 const menu = document.querySelector(".menu");
                 const menuBar = document.querySelector(".menu .menubar ul");
                 const mobileBar = document.querySelector(".menu .mobilebar");
