@@ -27,11 +27,11 @@
                 const mobileBar = document.querySelector(".menu .mobilebar");
 
                 if (mobileBar && !mobileBar.querySelector(".hamburger")){
-                      const di = createElement("div");
-                      di.classList = "hamburger";
-                      di.innerHTML = "<span></span>";
+                      const di = document.createElement("div");
+                      di.className = "hamburger";
                       di.setAttribute("aria-label","Toggle menu")
                       dv.setAttribute("tabindex","0");
+                      di.innerHTML = "<span></span>";
 
                       mobileBar.appendChild(di);
 
