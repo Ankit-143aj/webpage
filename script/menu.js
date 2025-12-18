@@ -28,8 +28,8 @@
 
                 if (mobileBar && !mobileBar.querySelector(".hamburger")){
                       const di = createElement("div");
-                      di.classList("hamburger");
-                      di.innerHTML("<span></span>")
+                      di.classList = "hamburger";
+                      di.innerHTML = "<span></span>";
                       di.setAttribute("aria-label","Toggle menu")
                       dv.setAttribute("tabindex","0");
 
@@ -37,7 +37,7 @@
 
                       di.addEventListener("click" (e) => {
                             e.stopPropagation();
-                            menu.classList.toggle("")
+                            menu.classList.toggle("mobile-open");
                       })
                 }
           }
