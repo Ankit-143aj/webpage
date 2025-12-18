@@ -176,6 +176,12 @@ background:linear-gradient(white,aqua);
     align-items:center;
     cursor:pointer;
   }
+  .header .menu.mobile-open .mobilebar .hamburger{
+    display:block;
+    top:10%;
+    left:0;
+    
+  }
   .header .menu .mobilebar .hamburger span{
     display:block;
     width:20px;
@@ -185,6 +191,8 @@ background:linear-gradient(white,aqua);
     box-shadow:0 7px 0 white,0 -7px 0 white; 
     z-index:100;
   }
+
+  
 
   
   
